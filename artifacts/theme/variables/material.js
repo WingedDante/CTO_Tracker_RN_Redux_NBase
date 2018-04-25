@@ -95,7 +95,7 @@ export default {
     // Card
     cardDefaultBg: "#fff",
     // Color
-    brandPrimary: "#3F51B5",
+    brandPrimary: "#ffa500",
     brandInfo: "#3F57D3",
     brandSuccess: "#5cb85c",
     brandDanger: "#d9534f",
@@ -132,7 +132,7 @@ export default {
     topTabBarActiveBorderColor: "#fff",
     // Header
     toolbarBtnColor: "#fff",
-    toolbarDefaultBg: "#3F51B5",
+    toolbarDefaultBg: this.brandPrimary,
     toolbarHeight: platform === "ios" ? 76 : 56,
     toolbarIconSize: platform === "ios" ? 20 : 22,
     toolbarSearchIconSize: platform === "ios" ? 20 : 23,

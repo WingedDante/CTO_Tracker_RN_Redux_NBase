@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         bottom: 0,
         left: 0,
         right: 0,
-        backgroundColor: "#FBFAFA",
+        backgroundColor: "#FFA500",
     },
     shadow: {
         flex: 1,

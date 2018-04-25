@@ -14,6 +14,10 @@ const routes = [
         route: "Login",
         caption: "Logout",
     },
+    {
+        route: "DateConfig",
+        caption: "CTO Configuration"
+    }
 ];
 const resetAction = NavigationActions.reset({
     index: 0,

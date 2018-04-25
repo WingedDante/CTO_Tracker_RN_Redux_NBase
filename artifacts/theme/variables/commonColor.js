@@ -33,12 +33,12 @@ export default {
     checkboxSize: 20,
     checkboxTickColor: "#fff",
     // Segment
-    segmentBackgroundColor: "#3F51B5",
+    segmentBackgroundColor: "#E59400",
     segmentActiveBackgroundColor: "#fff",
     segmentTextColor: "#fff",
-    segmentActiveTextColor: "#3F51B5",
+    segmentActiveTextColor: "#E59400",
     segmentBorderColor: "#fff",
-    segmentBorderColorMain: "#3F51B5",
+    segmentBorderColorMain: "#E59400",
     // New Variable
     get defaultTextColor() {
         return this.textColor;
@@ -95,7 +95,8 @@ export default {
     // Card
     cardDefaultBg: "#fff",
     // Color
-    brandPrimary: "#2874F0",
+    // brandPrimary: "#2874F0",
+    brandPrimary: "#ffa500",
     brandInfo: "#62B1F6",
     brandSuccess: "#5cb85c",
     brandDanger: "#d9534f",
@@ -115,7 +116,7 @@ export default {
     },
     // Footer
     footerHeight: 55,
-    footerDefaultBg: "#2874F0",
+    footerDefaultBg: this.brandPrimary,
     // FooterTab
     tabBarTextColor: "#8bb3f4",
     tabBarTextSize: platform === "ios" ? 14 : 11,
@@ -124,7 +125,7 @@ export default {
     tabBarActiveTextColor: "#fff",
     tabActiveBgColor: platform === "ios" ? "#1569f4" : undefined,
     // Tab
-    tabDefaultBg: "#2874F0",
+    tabDefaultBg: this.brandPrimary,
     topTabBarTextColor: "#b3c7f9",
     topTabBarActiveTextColor: "#fff",
     topTabActiveBgColor: platform === "ios" ? "#1569f4" : undefined,
@@ -132,7 +133,7 @@ export default {
     topTabBarActiveBorderColor: "#fff",
     // Header
     toolbarBtnColor: "#fff",
-    toolbarDefaultBg: "#2874F0",
+    toolbarDefaultBg: this.brandPrimary,
     toolbarHeight: platform === "ios" ? 64 : 56,
     toolbarIconSize: platform === "ios" ? 20 : 22,
     toolbarSearchIconSize: platform === "ios" ? 20 : 23,
@@ -141,7 +142,7 @@ export default {
     toolbarInverseBg: "#222",
     toolbarTextColor: "#fff",
     iosStatusbar: "light-content",
-    toolbarDefaultBorder: "#2874F0",
+    toolbarDefaultBorder: this.brandPrimary,
     get statusBarColor() {
         return color(this.toolbarDefaultBg)
             .darken(0.2)

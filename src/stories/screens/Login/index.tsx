@@ -11,12 +11,12 @@ class Login extends React.Component<Props, State> {
 	render() {
 		return (
 			<Container>
-				<Header style={{ height: 200 }}>
+				<Header style={{ height: 200, backgroundColor: "#FFA000" }}>
 					<Body style={{ alignItems: "center" }}>
-						<Icon name="flash" style={{ fontSize: 104 }} />
-						<Title>ReactNativeSeed.com</Title>
+						<Icon name="calendar" style={{ fontSize: 104 }} />
+						<Title>CTO Tracker</Title>
 						<View padder>
-							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }} />
+							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }} > </Text>
 						</View>
 					</Body>
 				</Header>

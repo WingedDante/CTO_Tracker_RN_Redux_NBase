@@ -12,7 +12,7 @@ const Drawer = DrawerNavigator({
 }, {
     drawerWidth: deviceWidth - 50,
     drawerPosition: "left",
-    contentComponent: props => React.createElement(Sidebar, Object.assign({}, props)),
+    contentComponent: (props) => React.createElement(Sidebar, Object.assign({}, props)),
 });
 const App = StackNavigator({
     Login: { screen: Login },

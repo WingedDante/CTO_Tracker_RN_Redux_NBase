@@ -15,6 +15,10 @@ const routes = [
 		route: "Login",
 		caption: "Logout",
 	},
+	{
+		route: "DateConfig",
+		caption: "CTO Configuration"
+	}
 ];
 
 export interface Props {
